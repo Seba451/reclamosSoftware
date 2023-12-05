@@ -1,0 +1,28 @@
+/* tabla-areas-comunes.css */
+.table-areas-comunes {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .table-areas-comunes th {
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .table-areas-comunes th, .table-areas-comunes td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  .table-areas-comunes tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-areas-comunes tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
